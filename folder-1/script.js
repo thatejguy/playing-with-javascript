@@ -10,3 +10,5 @@ buttons.forEach((button) => {
     button.style.background = 'red';
   })
 })
+
+console.log(document.links)
