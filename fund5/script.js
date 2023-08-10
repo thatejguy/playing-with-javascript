@@ -1,10 +1,8 @@
 let user = {
-  name: 'John',
+  name: "John",
   age: 30,
-  isAdmin: true,
-}
+};
 
-console.log(user);
-console.log(user.name);
-console.log(user.age);
-delete user.age;
+let key = prompt("What do you want to know about the user?", "name");
+
+alert(user[key]);
