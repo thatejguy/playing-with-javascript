@@ -1,12 +1,11 @@
-let codes = {
-  "49": "Germany",
-  "41": "Switzerland" ,
-  "44": "Great Britain",
-
-  "1": "USA",
+const person = {
+  name: ["Bob", "Smith"],
+  age: 32,
+  bio: function () {
+    console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
+  },
+  introduceSelf: function () {
+    console.log(`Hi! I'm ${this.name[0]}.`);
+  },
 };
-
-for (let code in codes) {
-  alert(code);
-}
 
