@@ -1,8 +1,12 @@
-let user = {
-  name: "John",
-  age: 30,
+let codes = {
+  "49": "Germany",
+  "41": "Switzerland" ,
+  "44": "Great Britain",
+
+  "1": "USA",
 };
 
-let key = prompt("What do you want to know about the user?", "name");
+for (let code in codes) {
+  alert(code);
+}
 
-alert(user[key]);
