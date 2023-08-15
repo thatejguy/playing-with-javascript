@@ -1,5 +1,8 @@
-const person = {
-  name: ["Bob", "Smith"],
+/*const person = {
+  name: {
+    first: "Bob",
+    last: "Smith",
+  },
   age: 32,
   bio() {
     console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
@@ -13,4 +16,15 @@ const person = {
     }
   },
 };
+*/
+const person = {
+  name: ["Bob", "Smith"],
+  age: 32,
+};
 
+function logProperty(propertyName) {
+  console.log(person[propertyName]);
+}
+
+logProperty("name");
+logProperty("age");
