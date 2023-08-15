@@ -7,5 +7,10 @@ const person = {
   introduceSelf() {
     console.log(`Hi! I'm ${this.name[0]}.`);
   },
+  loop() {
+    for (let i = 0; i <= 5; i++) {
+      console.log(i);
+    }
+  },
 };
 
