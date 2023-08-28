@@ -84,3 +84,7 @@ let users = [
 let user = users.find(item => item.id == 1);
 console.log(users.findIndex(user => user.name == 'John'));
 console.log(users.findLastIndex(user => user.name == 'John'));
+
+let users2 = [
+  {id: 1, name: "John"}
+]
