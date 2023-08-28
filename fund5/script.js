@@ -62,5 +62,25 @@ console.log(arr[1]);
 console.log(arr.length);
 
 let arr2 = ["I", "study", "JavaScript"];
-arr2.splice(0, 3, "Let's", "dance!");
+arr2.splice(2, 0, "complex", "language");
 console.log(arr2);
+
+let arr3 = ["t", "e", "s", "t"];
+console.log(arr3.slice(1, 3));
+console.log(arr3.slice(-2));
+
+let arr4 = [1, 2];
+console.log(arr4.concat([3, 4]));
+console.log(arr4.concat([3, 4], [5, 6]));
+console.log(arr4.concat([3, 4], 5, 6));
+
+let users = [
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"},
+  {id: 4, name: "John"}
+];
+
+let user = users.find(item => item.id == 1);
+console.log(users.findIndex(user => user.name == 'John'));
+console.log(users.findLastIndex(user => user.name == 'John'));
