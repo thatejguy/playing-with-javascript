@@ -32,7 +32,7 @@ logProperty("age");
 person.age = "45";
 person["name"]["last"] = "Cratchit";
 */
-function createPerson(name) {
+/*function createPerson(name) {
   const obj = {};
   obj.name = name;
   obj.introduceSelf = function() {
@@ -54,3 +54,13 @@ frankie.introduceSelf();
 // "Hi! I'm Frankie."
 
 const myNotification = new Notification("Hello!");
+*/
+
+let arr = ["I", "go", "home"];
+delete arr[1];
+console.log(arr[1]);
+console.log(arr.length);
+
+let arr2 = ["I", "study", "JavaScript"];
+arr2.splice(0, 3, "Let's", "dance!");
+console.log(arr2);
