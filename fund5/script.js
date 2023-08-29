@@ -56,6 +56,7 @@ frankie.introduceSelf();
 const myNotification = new Notification("Hello!");
 */
 
+/*
 let arr = ["I", "go", "home"];
 delete arr[1];
 console.log(arr[1]);
@@ -92,3 +93,21 @@ let users2 = [
 ];
 let someUsers2 = users2.filter(item => item.id < 3);
 console.log(someUsers2);
+
+let lengths = ["Grease", "Grime", "Puke"].map(item => item.length);
+console.log(lengths);
+
+let arrCool = [1, 2, 15];
+arrCool.sort();
+console.log(arrCool);
+*/
+
+function compareNumeric(a, b) {
+  if (a > b) return 1;
+  if (a == b) return 0;
+  if (a < b) return -1;
+}
+
+let arr = [1, 2, 15];
+arr.sort(compareNumeric);
+console.log(arr);
