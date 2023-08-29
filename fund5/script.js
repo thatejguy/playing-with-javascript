@@ -86,5 +86,9 @@ console.log(users.findIndex(user => user.name == 'John'));
 console.log(users.findLastIndex(user => user.name == 'John'));
 
 let users2 = [
-  {id: 1, name: "John"}
-]
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"}
+];
+let someUsers2 = users2.filter(item => item.id < 3);
+console.log(someUsers2);
