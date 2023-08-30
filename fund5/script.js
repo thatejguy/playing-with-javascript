@@ -107,8 +107,16 @@ let arr = [1, 2, 3, 4, 5];
 arr.reverse();
 console.log(arr);*/
 
+/*
 let names = 'Grease, Grime, Granduer';
 let arr = names.split(', ');
 for (let name of arr) {
   console.log(`A message to ${name}.`);
 }
+
+let str = 'test';
+console.log(str.split(''));*/
+
+let arr = ['Grease', 'Grime', 'Granduer'];
+let str = arr.join(';');
+console.log(str);
