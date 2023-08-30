@@ -102,12 +102,13 @@ arrCool.sort();
 console.log(arrCool);
 */
 
-function compareNumeric(a, b) {
-  if (a > b) return 1;
-  if (a == b) return 0;
-  if (a < b) return -1;
-}
+/*
+let arr = [1, 2, 3, 4, 5];
+arr.reverse();
+console.log(arr);*/
 
-let arr = [1, 2, 15];
-arr.sort(compareNumeric);
-console.log(arr);
+let names = 'Grease, Grime, Granduer';
+let arr = names.split(', ');
+for (let name of arr) {
+  console.log(`A message to ${name}.`);
+}
