@@ -117,6 +117,15 @@ for (let name of arr) {
 let str = 'test';
 console.log(str.split(''));*/
 
+/*
 let arr = ['Grease', 'Grime', 'Granduer'];
 let str = arr.join(';');
-console.log(str);
+console.log(str);*/
+
+/*
+let arr = [1, 2, 3, 4, 5];
+let result = arr.reduce((sum, current) => sum + current, 0);
+console.log(result);*/
+
+console.log(Array.isArray({}));
+console.log(Array.isArray([]));
